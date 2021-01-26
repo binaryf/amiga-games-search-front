@@ -1,0 +1,327 @@
+input {
+  width: 70%;
+  font-family:Sarpanch;
+  font-size: 1.7vw;
+  color: #444444;
+  border: 1px solid;
+  border-color: black;
+  padding: 0.7% 1.0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1.4%;
+}
+
+input:focus {
+  outline: 0px;
+}
+
+button {
+  font-family:Sarpanch;
+  font-size: 1.2vw;
+  opacity: 0.75;
+}
+
+button:focus {
+  outline: 0px;
+  opacity: 1.0;
+}
+
+h4 {
+  font-family:Sarpanch;
+  font-size: 1.5vw;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.workspace {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.search {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 18.0%;
+  text-align: center;
+}
+
+.top-games {
+  font-size: 1.5vw;
+}
+
+.change-page {
+  font-size: 1.3vw;
+  float: right;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.hidden {
+  display: none;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-left button {
+  margin: 1px;
+}
+
+.black-votes {
+  width: 6.00%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-votes:hover {
+  background-color: gray;
+}
+
+.black-title {
+  width: 49.60%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-title:hover {
+  background-color: gray;
+}
+
+.black-size {
+  width: 8.00%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-size:hover {
+  background-color: gray;
+}
+
+.black-producer {
+  width: 25.00%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-producer:hover {
+  background-color: gray;
+}
+
+.black-year {
+  width: 6.00%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-year:hover {
+  background-color: gray;
+}
+
+.black-vote {
+  width: 4.0%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black-vote:hover {
+  background-color: gray;
+}
+
+.black {
+  width: 6.00%;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.black:hover {
+  background-color: gray;
+}
+
+.slategrey {
+  width: 49.60%;
+  color: white;
+  background-color: darkslategrey;
+  border: 0px;
+  text-align: left;
+}
+
+.slategrey:hover {
+  background-color: slategray;
+}
+
+.gray {
+  width: 8.00%;
+  color: white;
+  background-color: gray;
+  border: 0px;
+}
+
+.gray:hover {
+  background-color: darkgray;
+}
+
+.seagreen {
+  width: 25.00%;
+  color: white;
+  background-color: seagreen;
+  border: 0px;
+  text-align: left;
+}
+
+.seagreen:hover {
+  background-color: darkseagreen;
+}
+
+.cyan {
+  width: 6.00%;
+  color: white;
+  background-color: darkgrey;
+  border: 0px;
+}
+
+.cyan:hover {
+  background-color: gray;
+}
+
+.red {
+  width: 4.0%;
+  color: white;
+  background-color: darkred;
+  border: 0px;
+}
+
+.red:hover {
+  background-color: red;
+}
+
+.mobile-description {
+  background-color: white;
+  color: black;
+  font-family:Sarpanch;
+  font-size: 3.0vw;
+  display: none;
+  width: 100%;
+  margin: 1px;
+  float: left;
+}
+
+.mobile-description:hover {
+  background-color: #eeeeee;
+}
+
+.bar {
+  border-top: 1px solid #888888;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.white-space {
+  width: 100%;
+  height: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .mobile-description {
+    display: block;
+  }
+
+  .bar {
+    display: block;
+  }
+
+  .white-space {
+    display: block;
+  }
+
+  input {
+    width: 80.00%;
+    font-size: 3.0vw;
+  }
+
+  .change-page {
+    font-size: 3.0vw;
+  }
+
+  .top-games {
+    font-size: 3.0vw;
+  }
+
+  button {
+    font-size: 3.0vw;
+    padding-left: 10px;
+  }
+
+  h4 {
+    font-size: 3.0vw;
+  }
+
+  .red {
+    width: 12.00%;
+    height: 2%;
+  }
+
+  .black-votes {
+    display: none;
+  }
+
+  .black-title {
+    display: none;
+  }
+
+  .black-size {
+    display: none;
+  }
+
+  .black-producer {
+    display: none;
+  }
+
+  .black-year {
+    display: none;
+  }
+
+  .black-vote {
+    display: none;
+  }
+
+  .black {
+    width: 100.00%;
+    text-align: left;
+  }
+
+  .slategrey {
+    width: 100.00%;
+  }
+
+  .gray {
+    width: 100.00%;
+    text-align: left;
+  }
+
+  .seagreen {
+    width: 100.00%;
+  }
+
+  .cyan {
+    width: 100.00%;
+    text-align: left;
+  }
+}
